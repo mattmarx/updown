@@ -1,0 +1,98 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, Arial;
+  margin-left: 20px;
+}
+
+label {
+  font-family: Roboto, Arial;
+}
+
+select {
+  font-family: Roboto, Arial;
+}
+
+button {
+  background-color: rgb(69, 203, 69);
+  border-width: 2px;
+  height: 30px;
+  width: 60px;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-bottom: 8px
+}
+
+button:hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+button:active {
+  opacity: 0.6;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(6, 6, 150);
+  margin-left: 5px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.small {
+  font-size: 12px;
+  margin-bottom: 5px;
+
+}
+
+.enter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.input {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 20px;
+
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(6, 6, 150);
+  margin-left: 5px;
+}
+
+.result0 {
+  margin-left: 5px
+}
+
+.result1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(18, 164, 45);
+  margin-left: 5px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: 275px;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-bottom: 8px
+}

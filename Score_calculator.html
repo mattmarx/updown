@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<title>Entrepreneurship Score Calculator</title>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="score_calculator.css">
+</head>
+
+<body>
+
+  <div>
+    <p class="title"><u>Negotiating Equity Splits at UpDown</u></p>
+  </div>
+  <p class="subtitle">Split of Founders' Equity: </p>
+  <p class="small">Please enter the whole number percentage e.g. 40 or 40%. Do NOT enter 0.4.</p>
+  <div>
+    <p>Michael's equity</p><input class="input" type="qty" id="me" value="">
+  </div>
+  <div>
+    <p>Georg's equity</p><input class="input" type="qty" id="ge" value="">
+  </div>
+  <div>
+    <p>Phuc's equity</p><input class="input" type="qty" id="pe" value="">
+  </div>
+  <div>
+    <p>Warren's equity</p><input class="input" type="qty" id="we" value="">
+  </div>
+
+
+  <div class="phuc-sal">
+    <p class="subtitle">Salary for Phuc:</p>
+    <p class="small">Please enter the whole number value e.g. 70000. Do NOT enter 70k.</p>
+    <div>
+      <p>Phuc's Salary</p><input class="input" type="qty" id="ps" value="">
+    </div>
+
+  </div>
+
+  <div class="seed-equity">
+    <p class="subtitle">Split of Seed Equity:</p>
+    <p class="small">Please select a seed equity split.</p>
+    <select class="dropdown" type="qty" name="seed-equity" id="se" value="">
+      <option value="0">Select</option>
+      <option value="1">Phuc 0%, Michael 50%, Georg 50%</option>
+      <option value="2">Phuc 10%, Michael 45%, Georg 45%</option>
+      <option value="3">Phuc 25%, Michael 37.5%, Georg 37.5%</option>
+      <option value="4">Phuc 33.3%, Michael 33.3%, Georg 33.3%</option>
+    </select>
+
+  </div>
+
+  <button class="enter" type="button" onclick="display()">Enter</button>
+
+
+  <p class="result0">Michael's score: </p>
+  <p class="result0" id="moutput"></p>
+
+  <p class="result0">Georg's score: </p>
+  <p class="result0" id="goutput"></p>
+
+  <p class="result0">Phucs's score: </p>
+  <p class="result0" id="poutput"></p>
+
+  <p class="result">Your team's raw score: </p>
+  <p class="result" id="toutput"></p>
+
+  <p class="result">Your team's score above walkaway: </p>
+  <p class="result1" id="sawoutput"></p>
+
+
+  <script src="calc_script.js">
+  </script>
+</body>
+
+</html>
